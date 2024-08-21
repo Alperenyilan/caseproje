@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bursa-Case</title>
+    <link
+      href="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
+"
+      rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="dist/style.css" />
+    <link href=
+    "https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+              rel="stylesheet">
+
+  </head>
+  <body>
+    <!-- BAŞLIK EN ÜST -->
+    <header>
+      <div class="header-container">
+        <a href="#" class="logo">
+          <img src="./images/sega-solar-logo.svg" alt="brand" />
+        </a>
+
+        <button class="hamburger">
+          <img src="/images/hamburger.png" />
+        </button>
+
+        <nav class="navbar">
+          <div class="navbar-wrapper">
+            <div class="navbar-options">
+              <a href="#">CORPORATE</a>
+              <a href="#">SERVICES</a>
+              <a href="#">PROJECTS</a>
+              <a href="#">MEDIA</a>
+              <a href="#">CONTACT</a>
+            </div>
+            <button class="navbar-btn">
+              <p>GET AN OFFER</p>
+            </button>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- SLIDERS -->
+    <section class="slide-area">
+      <!-- Hero Slider -->
+      <div id="image-slider" class="splide">
+        <div class="splide__track">
+          <ul class="splide__list">
+            <li class="splide__slide">
+              <img src="./images/ges1-armutlu.png" alt="ges1" />
+              <div class="slide_description">
+                <h2 class="description_title">Aksaray / Armutlu GES</h2>
+                <button class="description_btn">
+                  <p>24.500 kWp</p>
+                </button>
+              </div>
+            </li>
+            <li class="splide__slide">
+              <img src="./images/ges2-hilvan.jpg" alt="ges4" />
+              <div class="slide_description">
+                <h2 class="description_title">Şanlıurfa / Hilvan GES</h2>
+                <button class="description_btn">
+                  <p>37.500 kWp</p>
+                </button>
+              </div>
+            </li>
+            <li class="splide__slide">
+              <img src="./images/ges3-seydisehir.jpg" alt="ges3" />
+              <div class="slide_description">
+                <h2 class="description_title">Konya / Seydişehir GES</h2>
+                <button class="description_btn">
+                  <p>11.444 kWp</p>
+                </button>
+              </div>
+            </li>
+            <li class="splide__slide">
+              <img src="./images/ges4-ermenek.jpg" alt="ges2" />
+              <div class="slide_description">
+                <h2 class="description_title">Karaman / Ermenek GES</h2>
+                <button class="description_btn">
+                  <p>11.126 kWp</p>
+                </button>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <!-- Scroll Iconu -->
+        <div class="scroll-icon-container">
+          <div class="scroll-icon">
+          <!-- <div class="scroll-dot"></div> -->
+          </div>
+        </div>
+        <!-- Kaydırma Okları -->
+        <div class="splide__arrows">
+          <button class="splide__arrow splide__arrow--prev">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g clip-path="url(#clip0_1_602)">
+                <path
+                  d="M17.7344 0.00585742C18.0224 0.00531957 18.2564 0.238472 18.2569 0.526541C18.2571 0.665415 18.202 0.798668 18.1036 0.896761L6.99675 12.0026L18.1036 23.1084C18.3076 23.3124 18.3076 23.6431 18.1036 23.847C17.8997 24.051 17.569 24.051 17.3651 23.847L5.8899 12.3719C5.68629 12.1682 5.68629 11.838 5.8899 11.6343L17.3651 0.159206C17.4629 0.0610637 17.5958 0.00585741 17.7344 0.00585742Z"
+                  fill="white"
+                />
+              </g>
+              <defs>
+                <clipPath id="clip0_1_602">
+                  <rect
+                    width="24"
+                    height="24"
+                    fill="white"
+                    transform="translate(24 24) rotate(-180)"
+                  />
+                </clipPath>
+              </defs>
+            </svg>
+          </button>
+          <button class="splide__arrow splide__arrow--next">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g clip-path="url(#clip0_1_598)">
+                <path
+                  d="M6.26565 23.9941C5.97758 23.9947 5.74364 23.7615 5.7431 23.4735C5.74286 23.3346 5.79802 23.2013 5.89636 23.1032L17.0033 11.9974L5.89636 0.891553C5.69239 0.687592 5.69239 0.356932 5.89636 0.152971C6.10032 -0.0509902 6.43098 -0.0509902 6.63494 0.152971L18.1101 11.6281C18.3137 11.8318 18.3137 12.162 18.1101 12.3657L6.63494 23.8408C6.53714 23.9389 6.40423 23.9941 6.26565 23.9941Z"
+                  fill="white"
+                />
+              </g>
+              <defs>
+                <clipPath id="clip0_1_598">
+                  <rect width="24" height="24" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <!-- Bayraklar ve geçiş olayları(splide) -->
+      <div id="flag-slider" class="splide flag-splide">
+        <div class="splide__track">
+          <ul class="splide__list">
+            <li class="splide__slide">
+              <div class="flag-item">
+                <img src="./images/Asset1.png" />
+                 <p class="flag-info">TURKEY / <span>215 KW</span>
+                </p>
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="flag-item">
+                <img src="./images/Asset2.png" />
+                 <p class="flag-info">MACEDONIA / <span>115 MV</span>
+                </p>
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="flag-item">
+                <img src="./images/Asset3.png" />
+                 <p class="flag-info">GERMANY / <span>78 MV</span></p>
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="flag-item">
+                <img src="./images/Asset4.png" />
+                 <p class="flag-info">DOMINICIAN REPUBLIC / <span>515 MV</span></p>
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="flag-item">
+                <img src="./images/Asset5.png" />
+                 <p class="flag-info">GABONESE / <span>615 MV</span></p>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- laylout -->
+    <section class="about">
+      <div class="bg-wave">
+        <img src="/images/wave.png" />
+      </div>
+
+      <div class="container">
+        <div class="container-content">
+          <div class="content-title">
+            <h2><i>456 MW</i></h2>
+            <h3>Worldwide Solar Energy</h3>
+          </div>
+          <div class="content-desc">
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the
+            </p>
+          </div>
+          <div class="content-button">
+            <button>About Us</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-map">
+        <img src="/images/world.png"  />
+      </div>
+    </section>
+
+    <!-- GRID -->
+    <section>
+      <div class="container">
+        <div class="projects-container">
+          <div class="grid">
+            <div class="grid-item">
+              <a href="/" class="solar-card">
+                <div class="card-image">
+                  <img src="/images/asset-1.jpeg" />
+                </div>
+                <div class="card-content">
+                  <div class="content-title">Aksaray / Armutlu 1 GES</div>
+                  <div class="card-button">
+                    <button>24.500 kWp</button>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="grid-item">
+              <a href="/" class="solar-card">
+                <div class="card-image">
+                  <img src="/images/asset-2.jpeg" />
+                </div>
+                <div class="card-content">
+                  <div class="content-title">Karaman / Ermenek GES</div>
+                  <div class="card-button">
+                    <button>11.126 kWp</button>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="grid-item">
+              <a href="/" class="solar-card">
+                <div class="card-image">
+                  <img src="/images/asset-3.png" />
+                </div>
+                <div class="card-content">
+                  <div class="content-title">Konya / Seydişehir GES</div>
+                  <div class="card-button">
+                    <button>11.444 kWp</button>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="grid-item">
+              <a href="/" class="solar-card">
+                <div class="card-image">
+                  <img src="/images/asset-4.png" />
+                </div>
+                <div class="card-content">
+                  <div class="content-title">Konya / Yunak GES</div>
+                  <div class="card-button">
+                    <button>7.420 kWp</button>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="grid-item">
+              <a href="/" class="solar-card">
+                <div class="card-image">
+                  <img src="/images/asset-6.png" />
+                </div>
+                <div class="card-content">
+                  <div class="content-title">Konya / Yunak GES</div>
+                  <div class="card-button">
+                    <button>8.160 kWp</button>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="grid-item">
+              <a href="/" class="solar-card">
+                <div class="card-image">
+                  <img src="/images/asset-5.png" />
+                </div>
+                <div class="card-content">
+                  <div class="content-title">Şanlıurfa / Hilvan GES</div>
+                  <div class="card-button">
+                    <button>37.500 kWp</button>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="button-wrapper">
+          <div class="content-button">
+            <button>All Projects</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VIDEO  -->
+    <section class="video">
+      <div class="video-bg">
+        <img src="/images/videobg.jpeg" />
+      </div>
+
+      <div class="container">
+        <div class="video-content">
+          <div class="video-content-title">Think Future</div>
+
+            <img src="/images/play.png" class="play"></img>
+
+          <div class="video-content-title">Switch to Sun</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+        <div class="footer-wrapper">
+            <div class="footer-left">
+                <div class="footer-logo">
+                    <img src="https://segasolar.com/build/images/sega-logo.svg">
+                </div>
+                <div class="footer-nav">
+                        <a href="/" class="nav-item">
+                            CORPORATE
+                        </a>
+                        <a href="/" class="nav-item">
+                            PROJECTS
+                        </a>
+                        <a href="/" class="nav-item">
+                            SERVICES
+                        </a>
+                        <a href="/" class="nav-item">
+                            MEDIA
+                        </a>
+                          <a href="/" class="nav-item">
+                            CONTACT
+                        </a>
+                </div>
+            </div>
+
+            <div class="footer-right">
+                <form class="footer-news">
+                    <div class="top">
+                      <div class="text-xl font-bold leading-7 text-left uppercase top-title font-neue-haas-grotesk-display-pro">
+                        Join <span>Newsletter</span>
+                    </div>
+                    <div class="social">
+                      <a href="https://www.facebook.com" target="_blank" >
+                        <img src="./images/facebook.png" alt="Facebook" style="width: 10px; height: 20px;" />
+                      </a>
+
+                      <a href="https://www.instagram.com" target="_blank">
+                        <img  src="./images/instagram.png" alt="Instagram" style="width: 20px; height: 20px;" />
+                      </a>
+
+                      <a href="https://www.linkedin.com" target="_blank"  class="social-link hover-effect">
+                        <img src="./images/linkedin.png" alt="LinkedIn" style="width: 20px; height: 20px;" />
+                      </a>
+
+                      <a href="https://www.youtube.com" target="_blank"  class="social-link hover-effect">
+                        <img src="./images/youtube.png" alt="YouTube" style="width: 20px; height: 20px;" />
+                      </a>
+                    </div>
+
+                    </div>
+                    <div class="flex relative justify-between">
+
+                      <input name="email" type="text" class="px-4 py-3 pr-10 w-full text-sm text-gray-800 bg-white rounded-md border border-gray-300 outline-blue-500" placeholder="email address" >
+                      <button class="absolute right-0 top-1/2 pt-12 ml-10 transform -translate-y-1/2 responsive-img" type="submit">
+
+                        <img class="cursor-pointer p-8 right-3 text-center items-center  w-[24px] h-[20px]  responsive-img" src="./images/okisareti.png" alt="Send" />
+                      </button>       
+                    </div>
+                </form>
+                <div class="info">
+
+                  <p class="cursor-pointer info-item hover:text-blue-500" ;>
+                  Adres: Prof. Dr. Ahmet Taner Kışlalı Mah. 2820. Sok.<br>No:6Çayyolu - Çankaya / Ankara / TÜRKİYE
+                  </p>
+                </div>
+                <div class="info">
+                  <a href="tel:+90 312 241 17 06" class="info-item2">
+                    +90 312 241 17 06 (pbx)
+                  </a>
+                  <a href="mailto:info@segasolar.com" class="info-item2">
+                    info@segasolar.com
+                  </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="bottom-wrapper">
+              <div class="bottom-copyright">
+                   © Copyright 2023 Sega Solar, all rights reserved.
+                </div>
+                <div class="policies">
+                  <a href="/" class="policy-item hover:text-blue-500">
+                      Cookie Policy
+                  </a>
+                  <a href="/" class="policy-item hover:text-blue-500">
+                      Privacy Policy
+                  </a>
+                  <a href="/" class="policy-item hover:text-blue-500">
+                      KVKK
+                  </a>
+                  <span class="policy-separator">|</span>
+                </div>
+                <div>
+
+                  <a href="/" class="policies-item hover:text-blue-500">
+                      web design BABEL
+                  </a>
+              </div>
+            </div>
+        </div>
+    </div>
+  </footer>
+
+    <script src="main.js"></script>
+    <script src="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+  </body>
+</html>
